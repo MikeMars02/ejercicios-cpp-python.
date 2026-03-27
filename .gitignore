@@ -1,12 +1,6 @@
-# Archivos del sistema macOS
-.DS_Store
 
-# Compilados de C++
-a.out
-*.o
-*.out
-*.app
-
-# Caché de Python
-__pycache__/
-*.pyc
+*
+!*.*
+!*/
+!.gitignore
+!README.md

@@ -1,6 +1,17 @@
-
+# 1. Ignorar TODO por defecto
 *
-!*.*
+
+# 2. Permitir que Git entre en las carpetas
 !*/
+
+# 3. NO IGNORAR solo tus archivos de código y documentación
+!*.cpp
+!*.py
+!*.h
 !.gitignore
 !README.md
+
+# 4. BLOQUEAR explícitamente basura de sistema y configuración de editores
+# (Aunque tengan punto, estas reglas mandan por estar al final)
+.vscode/
+.DS_Store
